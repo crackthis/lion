@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 27px;
+}
+
+.footer-service {
+    padding-top: 47px;
+    padding-bottom: 56px;
+}
+
+.footer .contacts {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.footer-container__border--top {
+    border-top: 1px solid #353538;
+}

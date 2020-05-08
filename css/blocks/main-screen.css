@@ -1,0 +1,16 @@
+.main-screen {
+    width: 400px;
+}
+
+.main-screen__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.18;
+    margin-bottom: 18px;
+}
+
+.main-screen__subtitle {
+    font-size: 17px;
+    color: #dfb56d;
+    margin-bottom: 48px;
+}

@@ -1,0 +1,28 @@
+.contacts {
+    margin-left: auto;
+    line-height: 1.1;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+}
+
+.contacts__phone {
+    font-size: 26px;
+    color: #fff;
+}
+
+.contacts__hours {
+    font-size: 13px;
+    color: #dfb56d;
+    margin-left: auto;
+    font-weight: 600;
+}
+
+.contacts__hours:hover {
+    text-decoration: underline;
+}
+
+.contacts__free {
+    font-size: 11px;
+    color: #999999;
+}

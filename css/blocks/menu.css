@@ -1,0 +1,18 @@
+.menu {
+    margin-left: 96px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    min-width: 270px;
+}
+
+.menu__item {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.menu__item .menu__item-link:hover {
+    color: #dfb56d;
+}

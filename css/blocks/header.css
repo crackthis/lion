@@ -1,0 +1,10 @@
+.header {
+    margin-bottom: 197px;
+    padding-top: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.header-service {
+    margin-bottom: 112px;
+}

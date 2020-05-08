@@ -1,0 +1,23 @@
+.button {
+    background-color: #dfb56d;
+    border-radius: 4px;
+    padding: 16px 38px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.button:hover {
+    box-shadow: 0 0 40px rgba(223, 181, 109, 0.15);
+    background-color: #d3a556;
+}
+
+.button--clr--black {
+    background-color: #202123;
+}
+
+.button--clr--black:hover {
+    background-color: #dfb56d;
+}

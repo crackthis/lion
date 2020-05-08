@@ -1,0 +1,108 @@
+.offer {
+    margin-bottom: 131px
+}
+
+.offer__title {
+    color: #010001;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.offer__main-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 47px;
+}
+
+.offer__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer__item {
+    min-height: 470px;
+    width: 362px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.offer__cost {
+    font-size: 36px;
+}
+
+.offer__cost-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.offer__content {
+    padding: 36px 30px;
+    padding-top: 24px;
+    color: #010001;
+}
+
+.offer__cashback {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.offer__cashback span {
+    font-size: 30px;
+}
+
+.offer__block {
+    display: flex;
+    margin-bottom: 46px;
+    color: #333333;
+}
+
+.offer__block-item {
+    margin-right: 18px;
+}
+
+.offer__block-item:last-child {
+    margin-right: 0;
+}
+
+.offer__button-wrapper {
+    text-align: center;
+}
+
+.offer__card {
+    position: relative;
+    min-height: 162px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer__card-img {
+    position: relative;
+}
+
+.offer__card:before {
+    content: "";
+    width: 284px;
+    height: 284px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: -122px;
+    right: -93px;
+    background: #ccc;
+}
+
+.offer__card--theme--grey:before {
+    background-color: #a5a5a4;
+}
+
+.offer__card--theme--blue:before {
+    background-color: #556180;
+}
+
+.offer__card--theme--gold:before {
+    background-color: #978455;
+}
+

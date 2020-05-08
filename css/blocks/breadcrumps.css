@@ -1,0 +1,22 @@
+.breadcrumps__list {
+    color: #999999;
+    display: flex;
+    font-size: 14px;
+}
+
+.breadcrumps__link:hover {
+    text-decoration: underline;
+}
+
+.breadcrumps__item--active {
+    font-weight: bold;
+}
+
+.breadcrumps__item:after {
+    content: "/";
+    padding: 0 3px;
+}
+
+.breadcrumps__item:last-child:after {
+    content: "";
+}

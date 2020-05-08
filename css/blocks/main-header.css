@@ -1,0 +1,12 @@
+.main-header {
+    padding-bottom: 26px;
+    background:url("../../img/backgrounds/lion-head-wide.jpg") center top no-repeat;
+    color: #fff;
+}
+
+.services__main-title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.18;
+    margin-bottom: 98px;
+}
