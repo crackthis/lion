@@ -1,4 +1,4 @@
-.service-offer {
+.service-page {
     padding-bottom: 120px;
     padding-top: 36px;
 }
@@ -19,11 +19,22 @@
 
 .service-blocks__item:last-child {
     margin-bottom: 0;
+    position: relative;
+}
+
+.service-blocks__item:last-child:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1170px;
+    height: 451px;
     background-color: #f4f5f5;
-    min-height: 451px;
+    top: 4px;
+    right: -11px;
 }
 
 .service-blocks__title {
+    position: relative;
     font-size: 30px;
     font-weight: 700;
     color: #202123;
@@ -32,9 +43,15 @@
 }
 
 .service-blocks__desc p {
+    position: relative;
     width: 543px;
     font-size: 16px;
     color: #818181;
     line-height: 1.7;
     margin-bottom: 30px;
+}
+
+.service-blocks__img-item {
+    position: relative;
+    max-width: 100%;
 }

@@ -16,3 +16,7 @@
 .menu__item .menu__item-link:hover {
     color: #dfb56d;
 }
+
+.menu__item--active {
+    color:#CA8A1C;
+}
