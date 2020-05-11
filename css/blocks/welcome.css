@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     animation: bounceAnimation 1s;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
@@ -23,22 +23,18 @@
 
     45% {
         margin-bottom: 60px;
-        opacity: 0.4;
     }
 
     55% {
         margin-bottom: 0;
-        opacity: 0.6;
     }
 
     75% {
         margin-bottom: 20px;
-        opacity: 0.8;
     }
 
     80% {
         margin-bottom: 0px;
-        opacity: 1;
     }
 
     100% {
