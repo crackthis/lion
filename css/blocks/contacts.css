@@ -3,21 +3,12 @@
     line-height: 1.1;
     text-align: right;
     font-style: normal;
+    position: relative;
 }
 
 .contacts__phone {
     font-size: 26px;
     color: #fff;
-}
-
-.contacts__hours {
-    font-size: 13px;
-    color: #dfb56d;
-    font-weight: 600;
-}
-
-.contacts__hours:hover {
-    text-decoration: underline;
 }
 
 .contacts__free {
