@@ -11,9 +11,10 @@
 .menu__item {
     font-size: 14px;
     color: #ffffff;
+    transition: color .4s;
 }
 
-.menu__item .menu__item-link:hover {
+.menu__item:hover {
     color: #dfb56d;
 }
 
