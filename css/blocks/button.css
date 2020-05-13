@@ -7,6 +7,8 @@
     color: #fff;
     text-transform: uppercase;
     display: inline-block;
+    box-shadow: 0 0 1px rgba(223, 181, 109, 0.15);
+    transition: background-color .4s, box-shadow .4s;
 }
 
 .button:hover {
