@@ -21,6 +21,10 @@ html, body {
     background-color: #ffffff;
 }
 
+.reviews-page-content {
+    background-color: #ffffff;
+}
+
 .main-page-wrapper {
     background: url("../../img/backgrounds/lion-header.jpg") center top no-repeat, url("../../img/backgrounds/bottom-pic.png") right bottom 307px no-repeat;
     color: #fff;

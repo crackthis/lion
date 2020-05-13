@@ -1,0 +1,20 @@
+.banner {
+    background-color: #e5c288;
+    padding-top: 12px;
+}
+
+.banner__title {
+    color: #202123;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.banner__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner__phone-img {
+    vertical-align: bottom;
+}

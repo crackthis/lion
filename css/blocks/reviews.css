@@ -1,0 +1,100 @@
+.reviews {
+    padding-top: 78px;
+    padding-bottom: 110px;
+}
+
+.reviews__blocks {
+    columns: 2;
+    column-gap: 29px;
+    margin-bottom: 70px;
+}
+
+.reviews__blocks-item {
+    width: 555px;
+    min-height: 539px;
+    background-color: #f4f5f5;
+    border-radius: 4px;
+    padding: 50px 34px 38px 29px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.reviews__blocks-item:nth-child(2n+1) {
+    margin-bottom: 20px;
+}
+
+.reviews__blocks-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.reviews__blocks-item p {
+    width: 491px;
+    color: #818181;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 53px;
+    line-height: 27px;
+}
+
+.reviews__blocks-user {
+    display: flex;
+    margin-bottom: 18px;
+    align-items: center;
+}
+
+.reviews__blocks-username {
+    color: #202123;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.reviews__blocks-link {
+    position: relative;
+}
+
+.reviews__blocks-link:after {
+    position: absolute;
+    content: "";
+    width: 30px; 
+    height: 30px;
+    background: url('../../img/icons/socials/socials_sprite.png') -122px -122px;
+    top: 3px;
+    margin-left: 13px;
+}
+
+.reviews__blocks-link:hover {
+    text-decoration: underline;
+    color: #4d76a1;
+}
+
+.reviews__blocks-info {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.reviews__hashtags {
+    display: flex;
+}
+
+.reviews__hashtags-item {
+    background-color: #c7e9d0;
+    padding: 10px 20px;
+    border-radius: 17px;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.reviews__hashtags-item:last-child {
+    margin-right: 0;
+}
+
+.reviews__blocks-date {
+    color: #202123;
+    font-size: 14px;
+    font-weight: 400;
+}
