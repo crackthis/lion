@@ -21,6 +21,8 @@
     text-decoration: none;
     font-weight: bold;
     line-height: 32px;
+    background-color: none;
+    transition: background-color .4s;
 }
 
 .paginator__link:hover {
