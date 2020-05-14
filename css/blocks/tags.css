@@ -1,0 +1,21 @@
+.tags {
+    display: flex;
+}
+
+.tags-item {
+    background-color: #e6e6e6;
+    padding: 10px 20px;
+    border-radius: 17px;
+    color: #333333;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.tags-item:last-child {
+    margin-right: 0;
+}
+
+.tags-item--green--clr {
+    background-color: #c7e9d0;
+}

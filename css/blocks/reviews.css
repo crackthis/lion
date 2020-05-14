@@ -1,12 +1,12 @@
 .reviews {
     padding-top: 78px;
-    padding-bottom: 110px;
+    padding-bottom: 107px;
 }
 
 .reviews__blocks {
     columns: 2;
     column-gap: 29px;
-    margin-bottom: 70px;
+    margin-bottom: 59px;
 }
 
 .reviews__blocks-item {
@@ -73,24 +73,6 @@
 .reviews__blocks-info {
     margin-left: 25px;
     margin-bottom: 10px;
-}
-
-.reviews__hashtags {
-    display: flex;
-}
-
-.reviews__hashtags-item {
-    background-color: #c7e9d0;
-    padding: 10px 20px;
-    border-radius: 17px;
-    color: #333333;
-    font-size: 13px;
-    font-weight: 400;
-    margin-right: 10px;
-}
-
-.reviews__hashtags-item:last-child {
-    margin-right: 0;
 }
 
 .reviews__blocks-date {

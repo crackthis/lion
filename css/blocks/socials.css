@@ -15,41 +15,157 @@
 }
 
 .socials__item-link {
+    position: relative;
     display: block;
     text-decoration: none;
     width: 36px;
     height: 36px;
+}
+
+.socials__item--icon--telegram .socials__item-link:hover:before {
+    opacity: 1;
+}
+
+.socials__item--icon--telegram .socials__item-link:hover:after {
+    opacity: 0;
+}
+
+.socials__item--icon--telegram .socials__item-link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
     background: url('../../img/icons/socials/socials_sprite.png');
-}
-
-.socials__item--icon--telegram .socials__item-link {
     background-position: -122px -10px;
+    transition: opacity .4s;
 }
 
-.socials__item--icon--telegram .socials__item-link:hover {
+.socials__item--icon--telegram .socials__item-link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/icons/socials/socials_sprite.png');
     background-position: -122px -66px;
+    opacity: 0;
+    transition: opacity .4s;
 }
 
-.socials__item--icon--vk .socials__item-link {
+.socials__item--icon--vk .socials__item-link:hover:before {
+    opacity: 1;
+}
+
+.socials__item--icon--vk .socials__item-link:hover:after {
+    opacity: 0;
+}
+
+.socials__item--icon--vk .socials__item-link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/icons/socials/socials_sprite.png');
     background-position: -10px -122px;
+    transition: opacity .4s;
 }
 
-.socials__item--icon--vk .socials__item-link:hover {
+.socials__item--icon--vk .socials__item-link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/icons/socials/socials_sprite.png');
     background-position: -66px -122px;
+    opacity: 0;
+    transition: opacity .4s;
 }
 
-.socials__item--icon--facebook .socials__item-link {
+.socials__item--icon--facebook .socials__item-link:hover:before {
+    opacity: 1;
+}
+
+.socials__item--icon--facebook .socials__item-link:hover:after {
+    opacity: 0;
+}
+
+.socials__item--icon--facebook .socials__item-link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/icons/socials/socials_sprite.png');
     background-position: -10px -10px;
+    transition: opacity .4s;
 }
 
-.socials__item--icon--facebook .socials__item-link:hover {
+.socials__item--icon--facebook .socials__item-link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/icons/socials/socials_sprite.png');
     background-position: -66px -10px;
+    opacity: 0;
+    transition: opacity .4s;
 }
 
-.socials__item--icon--instagram .socials__item-link {
+.socials__item--icon--instagram .socials__item-link:hover:before {
+    opacity: 1;
+}
+
+.socials__item--icon--instagram .socials__item-link:hover:after {
+    opacity: 0;
+}
+
+.socials__item--icon--instagram .socials__item-link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/icons/socials/socials_sprite.png');
     background-position: -10px -66px;
+    transition: opacity .4s;
 }
 
-.socials__item--icon--instagram .socials__item-link:hover {
+.socials__item--icon--instagram .socials__item-link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url('../../img/icons/socials/socials_sprite.png');
     background-position: -66px -66px;
+    opacity: 0;
+    transition: opacity .4s;
 }

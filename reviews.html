@@ -63,9 +63,9 @@
                                     </div>
                                     <div class="reviews__blocks-info">
                                         <div class="reviews__blocks-username"><a href="#" class="reviews__blocks-link">Иван Петрович</a></div>
-                                        <ul class="reviews__hashtags">
-                                            <li class="reviews__hashtags-item">Карта базовая</li>
-                                            <li class="reviews__hashtags-item">Ипотека на 10 лет</li>
+                                        <ul class="tags">
+                                            <li class="tags-item tags-item--green--clr">Карта базовая</li>
+                                            <li class="tags-item tags-item--green--clr">Ипотека на 10 лет</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -83,8 +83,8 @@
                                     </div>
                                     <div class="reviews__blocks-info">
                                         <div class="reviews__blocks-username"><a href="#" class="reviews__blocks-link">Лиза Сидорова</a></div>
-                                        <ul class="reviews__hashtags">
-                                            <li class="reviews__hashtags-item">Карта оптима</li>
+                                        <ul class="tags">
+                                            <li class="tags-item tags-item--green--clr">Карта оптима</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -102,8 +102,8 @@
                                     </div>
                                     <div class="reviews__blocks-info">
                                         <div class="reviews__blocks-username"><a href="#" class="reviews__blocks-link">Екатерина Жмых</a></div>
-                                        <ul class="reviews__hashtags">
-                                            <li class="reviews__hashtags-item">Ипотека на 10 лет</li>
+                                        <ul class="tags">
+                                            <li class="tags-item tags-item--green--clr">Ипотека на 10 лет</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -124,8 +124,8 @@
                                     </div>
                                     <div class="reviews__blocks-info">
                                         <div class="reviews__blocks-username"><a href="#" class="reviews__blocks-link">Антон Игоревич</a></div>
-                                        <ul class="reviews__hashtags">
-                                            <li class="reviews__hashtags-item">Автокредит на 5 лет</li>
+                                        <ul class="tags">
+                                            <li class="tags-item tags-item--green--clr">Автокредит на 5 лет</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -155,8 +155,8 @@
                 <section class="banner">
                     <div class="container banner__container">
                         <div class="banner__content">
-                            <h2 class="banner__title">LionBank-Онлайн<br>
-                                Простой способ<br>
+                            <h2 class="banner__title">LionBank-Онлайн
+                                Простой способ
                                 зайти в банк</h2>
                             <div class="banner__phone"><img src="./img/reviews/banner_phone.png" alt="banner phone" class="banner__phone-img"></div>
                         </div>
@@ -164,32 +164,85 @@
                 </section>
                 <section class="comment">
                     <div class="container">
-                        <div class="comment__content">
-                            <h2 class="comment__title">Оставьте отзыв</h2>
-                            <div class="comment__fields">
-                                <div class="comment__name"><input type="text"></div>
-                                <div class="comment__vk"><input type="text"></div>
-                                <div class="comment__text"><input type="text"></div>
+                        <h2 class="comment__title">Оставьте отзыв</h2>
+                        <form class="form">
+                            <div class="form__row">
+                                <input type="text" placeholder="ФИО" class="form__input">
+                                <input type="text" placeholder="Ссылка на профиль VK" class="form__input">
                             </div>
-                            <div class="comment__categories">
-                                <div class="comment__categories-title"></div>
-                                <ul class="comment__list">
-                                    <li class="comment__item"></li>
-                                    <li class="comment__item"></li>
-                                    <li class="comment__item"></li>
-                                    <li class="comment__item"></li>
-                                    <li class="comment__item"></li>
-                                    <li class="comment__item"></li>
-                                    <li class="comment__item"></li>
-                                    <li class="comment__item"></li>
-                                    <li class="comment__item"></li>
-                                    <li class="comment__item"></li>
+                            <div class="form__row">
+                                <textarea class="form__input form__input--textarea" placeholder="Напишите свой честный отзыв ;)"></textarea>
+                            </div>
+                            <div class="form__controls">
+                                <div class="form__controls-title">Какими услугами банка вы пользуетесь?</div>
+                                <ul class="controls">
+                                    <li class="controls__item">
+                                        <label class="controls__elem">
+                                            <input type="checkbox" class="controls__checkbox">
+                                            <div class="tags-item controls__tag">Карта базовая</div>
+                                        </label>
+                                    </li>
+                                    <li class="controls__item">
+                                        <label class="controls__elem">
+                                            <input type="checkbox" class="controls__checkbox">
+                                            <div class="tags-item controls__tag">Ипотека на 10 лет</div>
+                                        </label>
+                                    </li>
+                                    <li class="controls__item">
+                                        <label class="controls__elem">
+                                            <input type="checkbox" class="controls__checkbox">
+                                            <div class="tags-item controls__tag">Карта оптима</div>
+                                        </label>
+                                    </li>
+                                    <li class="controls__item">
+                                        <label class="controls__elem">
+                                            <input type="checkbox" class="controls__checkbox">
+                                            <div class="tags-item controls__tag">Автокредит на 5 лет</div>
+                                        </label>
+                                    </li>
+                                    <li class="controls__item">
+                                        <label class="controls__elem">
+                                            <input type="checkbox" class="controls__checkbox">
+                                            <div class="tags-item controls__tag">Никакими</div>
+                                        </label>
+                                    </li>
+                                    <li class="controls__item">
+                                        <label class="controls__elem">
+                                            <input type="checkbox" class="controls__checkbox">
+                                            <div class="tags-item controls__tag">Ипотека на 20 лет</div>
+                                        </label>
+                                    </li>
+                                    <li class="controls__item">
+                                        <label class="controls__elem">
+                                            <input type="checkbox" class="controls__checkbox">
+                                            <div class="tags-item controls__tag">Другое</div>
+                                        </label>
+                                    </li>
+                                    <li class="controls__item">
+                                        <label class="controls__elem">
+                                            <input type="checkbox" class="controls__checkbox">
+                                            <div class="tags-item controls__tag">страхование</div>
+                                        </label>
+                                    </li>
+                                    <li class="controls__item">
+                                        <label class="controls__elem">
+                                            <input type="checkbox" class="controls__checkbox">
+                                            <div class="tags-item controls__tag">Кредитная карта</div>
+                                        </label>
+                                    </li>
+                                    <li class="controls__item">
+                                        <label class="controls__elem">
+                                            <input type="checkbox" class="controls__checkbox">
+                                            <div class="tags-item controls__tag">Автокредит на 7 лет</div>
+                                        </label>
+                                    </li>
                                 </ul>
                             </div>
-                            <div class="comment__buttons">
-
+                            <div class="form__buttons">
+                                <button type="reset" class="button form__button button--clr--grey">Очистить</button>
+                                <button type="submit" class="button form__button button--clr--black">Отправить</button>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </section>
             </main>

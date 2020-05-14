@@ -6,6 +6,12 @@ html {
     box-sizing: inherit;
 }
 
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 html, body {
     font-family: 'Open Sans', Helvetica, sans-serif;
     background: #29292c;
