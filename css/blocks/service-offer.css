@@ -51,6 +51,10 @@
     margin-bottom: 30px;
 }
 
+.service-blocks__btn {
+    position: relative;
+}
+
 .service-blocks__img-item {
     position: relative;
     max-width: 100%;
