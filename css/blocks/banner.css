@@ -18,6 +18,11 @@
     align-items: center;
 }
 
+.banner__phone {
+    max-width: 531px;
+    height: 348px;
+}
+
 .banner__phone-img {
     vertical-align: bottom;
 }

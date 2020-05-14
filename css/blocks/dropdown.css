@@ -24,11 +24,11 @@
     justify-content: center;
     margin-top: 10px;
     border-radius: 5%;
-    right: -9999px;
+    left: -9999px;
 }
 
 .dropdown:hover .dropdown__info {
-    right: 0;
+    left: 33px;
     opacity: 0.8;
 }
 
