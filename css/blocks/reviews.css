@@ -69,6 +69,8 @@
 .reviews__blocks-link:after {
     position: absolute;
     content: "";
+    width: 30px; 
+    height: 30px;
     background: url('../../img/icons/socials/socials_sprite.png') -122px -122px;
     top: 3px;
     margin-left: 13px;
